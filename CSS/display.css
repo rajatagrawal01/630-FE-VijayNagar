@@ -1,0 +1,15 @@
+*{
+    margin: 5px;
+    padding: 0px;
+}
+
+
+.box{
+    display: inline-flex;
+    border: 2px solid black;
+    width: 200px;
+    padding: 10px;
+    justify-content: center;
+    /* display: none; */
+    /* visibility: hidden; */
+}
