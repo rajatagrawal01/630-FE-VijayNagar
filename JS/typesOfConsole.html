@@ -5,9 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script>
-        console.error("Information");
+        console.log("Log");
+        console.info("Information");
         console.warn("This is warning");
         console.error("This is Error");
+        console.table(
+            [
+                {Name:"Rahul",Age:24},
+                {Name:"Rajat",Age:25}
+            ]
+        )
+
+        console.group()
+        console.log("Hello");
+        console.log("Hello");
+        console.groupEnd()
+        
+        
 </script>
 </head>
 <body>
